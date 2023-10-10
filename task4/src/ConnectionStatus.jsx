@@ -27,7 +27,7 @@ const ConnectionStatus = () => {
         status === 'online' ? 'status_online' : 'status_offline'
       }`}
     >
-      {status === 'online' ? 'Online' : 'Offline'}
+      {status === 'online' ? 'online' : 'offline'}
     </div>
   );
 };
